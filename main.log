@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2025.3.25)  9 APR 2025 20:05
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2025.3.25)  12 APR 2025 16:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -584,53 +584,60 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: anh_CV.jpg Graphic file (type bmp)
 <anh_CV.jpg>
 
-Underfull \hbox (badness 8170) in paragraph at lines 80--80
-[]|\TU/TimesNewRoman(0)/m/n/10 Paypal Integration, Spring Security
+Overfull \hbox (0.53273pt too wide) in paragraph at lines 51--52
+\TU/TimesNewRoman(0)/m/n/10 Familiar with RESTful API design and relational dat
+abases (MySQL), and have worked with NoSQL databases such as MongoDB.
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 106--106
+Overfull \hbox (14.63104pt too wide) in paragraph at lines 51--52
+\TU/TimesNewRoman(0)/m/n/10 Experienced in implementing authentication and auth
+orization using Spring Security and JWT. Exposure to microservices architecture
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]|\TU/TimesNewRoman(0)/m/n/10 Spring Boot, Servlet, REST API,
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 105--105
 []|\TU/TimesNewRoman(0)/m/n/10 Designed and implemented the entire system, cove
 ring database
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
 \TU/TimesNewRoman(0)/m/n/10 architecture, backend logic, and frontend UI/UX. Ma
 naged
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 106--107
+Overfull \hbox (15.0pt too wide) in paragraph at lines 105--106
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []|\TU/TimesNewRoman(0)/m/n/10 Designed the database, set up the backend framew
 ork,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 \TU/TimesNewRoman(0)/m/n/10 and implemented core features such as user authenti
 cation
  []
 
 
-Underfull \hbox (badness 3323) in paragraph at lines 118--118
-\TU/TimesNewRoman(0)/m/n/10 (login/register/forgot password) with Spring Securi
-ty and JWT.
+Underfull \hbox (badness 1960) in paragraph at lines 117--117
+\TU/TimesNewRoman(0)/m/n/10 (login/register/forgot password) using Spring Secur
+ity and JWT.
  []
 
 
-Underfull \hbox (badness 6559) in paragraph at lines 118--118
-\TU/TimesNewRoman(0)/m/n/10 Developed email notification functionality, Excel e
-xport, and
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 118--119
+Overfull \hbox (15.0pt too wide) in paragraph at lines 117--118
 [][] 
  []
 
@@ -639,13 +646,13 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 118--119
 [1
 
 ]
-Underfull \hbox (badness 6316) in paragraph at lines 128--128
+Underfull \hbox (badness 6316) in paragraph at lines 127--127
 \TU/TimesNewRoman(0)/m/n/10 visualization with Chart.js, and created a landing 
 page with
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 128--129
+Overfull \hbox (15.0pt too wide) in paragraph at lines 127--128
 [][] 
  []
 
@@ -662,10 +669,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  14028 strings out of 410612
  261716 string characters out of 2776420
- 740626 words of memory out of 3000000
+ 741626 words of memory out of 3000000
  36818 multiletter control sequences out of 15000+600000
  559487 words of font info for 61 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 79i,19n,93p,357b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 79i,19n,93p,555b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (2 pages).
