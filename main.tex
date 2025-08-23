@@ -1,7 +1,7 @@
 \documentclass[a4paper,10pt]{article}
 \usepackage{fontspec}
-\setmainfont{Times New Roman} % Hoặc chọn font hỗ trợ tiếng Việt
-\usepackage[left=1.5cm, right=1.5cm, top=2cm, bottom=2cm]{geometry}
+\setmainfont{Times New Roman}
+\usepackage[left=1.2cm, right=1.2cm, top=1.5cm, bottom=1.5cm]{geometry}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{xcolor}
@@ -10,17 +10,27 @@
 \usepackage{tabularx}
 \usepackage{ulem}
 \usepackage{booktabs}
-\usepackage{fontawesome5} % Thư viện icon
-\usepackage{longtable} % Thêm vào phần preamble
+\usepackage{fontawesome5}
+\usepackage{marvosym}
+\usepackage{parskip}
 
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=blue,
+}
 
 \titleformat{\section}{\Large\bfseries\color{black}}{}{0em}{}
 \titleformat{\subsection}{\bfseries}{}{0em}{}
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=1pt, parsep=0pt} % Giảm khoảng cách trong itemize
+\renewcommand{\arraystretch}{1.2}
 
 \begin{document}
 \raggedbottom
 \titlespacing{\section}{0pt}{6pt}{3pt}
 \titlespacing{\subsection}{0pt}{4pt}{2pt}
+\linespread{1.1} % hoặc 1.15 tùy bạn
 % \flushbottom
 
 \noindent
@@ -28,14 +38,15 @@
     \includegraphics[width=3cm, height=3.5cm]{anh_CV.jpg} &
     % Chia thành 2 cột với 3 dòng mỗi cột
     \begin{tabular}{@{}l}
-        \multicolumn{1}{c}{\textbf{\LARGE Nguyễn Hữu Lộc} \quad \textbf{\large Java Intern Backend}} \\[10pt]
+        \multicolumn{1}{c}{\textbf{\LARGE Nguyễn Hữu Lộc} \quad \textbf{\large Backend Intern Developer}} \\[10pt]
         \begin{tabular}{@{}ll@{}}
             \faEnvelope & \href{mailto:lockbkbang@gmail.com}{\uline{lockbkbang@gmail.com}} \\
             \faPhone & 0397845443 \\
-            \faMapMarker & Thoi Tam Thon, Hoc Mon, TP HCM \\
+            \faBirthdayCake & 23/09/2004 \\
         \end{tabular} 
         \hspace{20pt} % Tạo khoảng cách giữa 2 bảng (cột)
         \begin{tabular}{@{}ll@{}}
+             \faMapMarker & Hoc Mon, TP HCM \\
             \faGithub & \href{https://github.com/LocNguyenSGU}{\uline{github.com/LocNguyenSGU}} \\
             \faGlobe & \href{https://locnguyensgu.github.io/nguyenhuuloc2k4/}{\uline{http://locnguyensguportfolio.store}} \\
         \end{tabular} 
@@ -43,86 +54,91 @@
 \end{tabular}
 
 
-\section{About me}
+\section{Objective}
 \vspace{-10pt}
 \noindent\rule{\linewidth}{0.5pt}
-I am a final-year Information Technology student with a short-term goal of gaining practical experience through my internship and a long-term goal of becoming a professional software developer, contributing to large-scale projects and building a sustainable career in the tech industry.
+A final-year IT student specializing in backend development, seeking a \textbf{Backend Intern} role to apply academic knowledge in real-world projects. Passionate about scalable systems, eager to learn from industry experts, and contribute effectively to team success.
+
 \section{Education}
 \vspace{-10pt}
-\noindent\rule{\linewidth}{0.5pt} % Đường gạch nhẹ
-\vspace{5pt}
+\noindent\rule{\linewidth}{0.5pt}
 \begin{tabularx}{\linewidth}{l X}
-    \textbf{2022 - 2026} & 
-    \textbf{Sai Gon University} \\ 
-    & Information Technology, majoring in Software Engineering \\ 
+    \textbf{2022 - 02/2026} & \textbf{Sai Gon University} \\ 
+    & Bachelor of Information Technology \\ 
     & GPA: 3.32/4 (8.1/10) \\ 
-    & Scholarship: 4 times \textit{(Encouragement Scholarship)}
+    & Scholarship: 4 times (Encouragement Scholarship)
 \end{tabularx}
+
+\section{Achievements}
+\vspace{-8pt}
+\noindent\rule{\linewidth}{0.5pt}
+\begin{itemize}
+    \item \textbf{Top 2 - Hackathon 2025 (Sai Gon University)}: Developed an AI learning assistant using the \textbf{OpenAI API}. Led the backend development and delivered a working demo in 24 hours.
+\end{itemize}
 
 \section{Skills}
 \vspace{-10pt}
-\noindent\rule{\linewidth}{0.5pt} % Đường gạch nhẹ
-% Tạo bảng với 3 cột
-% Sử dụng tabularx để tự động điều chỉnh chiều rộng cột
-\renewcommand{\arraystretch}{1.2}
-\begin{tabularx}{\linewidth}{X X X} 
-    \textbf{Database} & \textbf{Languages} & \\
-    MySQL, Redis, MongoDB & Java, JavaScript, PHP \\
-
-    \textbf{Version Control} & \textbf{Backend} & \textbf{Frontend} \\
-    Git/GitHub & Spring Boot, Servlet, REST API, WebSocket, Microservices architecture & ReactJS, JSP \\
-
-    \textbf{Tools} & \textbf{Security \& Integration} \\
-    Docker, Swagger, Git, AWS-EC2 & Spring Security, JWT, Paypal API \\
+\noindent\rule{\linewidth}{0.5pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\linewidth}{l X}
+    \textbf{Languages:} & Java, PHP \\
+    \textbf{Frameworks:} & Spring Boot, ReactJS \\
+    \textbf{Databases:} & MySQL, Redis, MongoDB \\
+    \textbf{Architecture:} & Microservices, Observer Pattern \\
+    \textbf{Realtime Communication:} & WebSocket \\
+    \textbf{Tools/DevOps:} & Git/GitHub, Docker, Swagger, AWS-EC2\\
+    \textbf{Security \& Integration:} & Spring Security, JWT, PayPal API
 \end{tabularx}
-
-\section*{Achievements}
-\vspace{-10pt}
-\noindent\rule{\linewidth}{0.5pt} % Đường gạch nhẹ
-\begin{itemize}
-    \item \textbf{Hackathon 2025 (Top 2) - Sai Gon University}: Built an AI-powered learning assistant using OpenAI APIs, integrated into a web platform. Led backend development, applied problem-solving skills and rapid prototyping to deliver a working demo in 24 hours. \href{https://github.com/LocNguyenSGU/Hackathon_Luong_Nghin_Do}{\uline{GitHub Repository}}
-\end{itemize}
 
 \section{Projects}
 \vspace{-10pt}
-\noindent\rule{\linewidth}{0.5pt} % Đường gạch nhẹ
+\noindent\rule{\linewidth}{0.5pt}
 
-\renewcommand{\arraystretch}{1.2}
-\begin{tabularx}{\linewidth}{@{}p{3cm} p{4.5cm} @{ }X}
-    \textbf{12/2024 - 06/2025} & \textbf{Calligo} & \\
-    & \textbf{Description:} & A real-time messaging platform built using a microservices architecture. It supports instant messaging, and real-time notifications. \\
-    & \textbf{Members:} & 1 member \\
-    & \textbf{My roles:} & Designed and implemented the entire system, covering database architecture, backend logic, and frontend UI/UX. Managed authentication, WebSocket-based real-time communication, message storage. \\
-    & \textbf{Technology:} & \\
-    & \quad \textbf{Database:} & MongoDB, Redis, MySQL \\
-    & \quad \textbf{Backend:} & Spring Boot, Kafka, WebSocket, JWT, Microservices Architecture, Observe pattern \\
-    & \quad \textbf{Frontend:} & ReactJS, Ant Design \\
-    & \textbf{GitHub:} & \href{https://github.com/LocNguyenSGU/Calligo}{\uline{Backend Repository}} \\
-    &  & \href{https://github.com/LocNguyenSGU/Calligo-FE}{\uline{Frontend Repository}} \\
-\end{tabularx}
+\subsection*{1. SchoolTest – Online Quiz System \hfill \small (Team Project – 4 members)}
+\begin{itemize}
+    \item \textbf{Timeline:} 06/2025 – 08/2025
+    \item \textbf{Description:} An online quiz platform for an teacher in \textbf{SGU} that allows them to create and manage quizzes, while students can take tests and receive instant feedback.
+    \item \textbf{Key Responsibilities:}
+    \begin{itemize}
+        \item Fixed bugs and developed additional features for the system using \textbf{PHP} with the \textbf{MVC} architecture.
+        \item Deployed and hosted the application using \textbf{VPS} and \textbf{AWS EC2}.
+    \end{itemize}
+    \item \textbf{Technologies:} PHP, MVC, MySQL
+    \item \textbf{Hosting:} \href{https://sgutest.site/QuanLyThiTracNghiem/}{\uline{sgutest.site}}
+\end{itemize}
 
+\subsection*{2. Calligo – Real-time Messaging Platform \hfill \small (Personal Project)}
+\begin{itemize}
+    \item \textbf{Timeline:} 12/2024 – 06/2025
+    \item \textbf{Description:} Full-stack chat system with a microservices architecture, supporting real-time messaging and scalable system.
+    \item \textbf{Key Responsibilities:}
+    \begin{itemize}
+        \item Designed and implemented a distributed backend using \textbf{Spring Boot} with \textbf{Microservices}.
+        \item Built a real-time communication layer with \textbf{STOMP over WebSocket}.
+        \item Managed data with \textbf{MongoDB}, \textbf{Redis}, and \textbf{MySQL}.
+    \end{itemize}
+    \item \textbf{Performance Test:}
+    \begin{itemize}
+        \item Simulated \textbf{1,000 users} sending \textbf{5 messages each}; \textbf{Messages received: 95,436}.
+        \item \textbf{Connection success rate: 98.34\%} \quad (Avg connect time: \textbf{438ms}).
+        \item \textbf{HTTP API:} \textbf{34,705 requests}, \textbf{0 errors}, \textbf{95th percentile: 3.1s}.
+    \end{itemize}
+    \item \textbf{Technologies:} Spring Boot, WebSocket, ReactJS, MongoDB, Redis, MySQL, Kafka
+    \item \textbf{GitHub:} \href{https://github.com/LocNguyenSGU/Calligo}{\uline{Backend}} \quad | \quad \href{https://github.com/LocNguyenSGU/Calligo-FE}{\uline{Frontend}}
+\end{itemize}
 
-\renewcommand{\arraystretch}{1.2}
-\begin{tabularx}{\linewidth}{@{}p{3cm} p{4.5cm} @{ }X}
-    \textbf{10/2024 - 12/2024} & \textbf{Flight Management System} & \\
-    & \textbf{Description:} & Website for managing flight bookings, with features like easy ticket booking, email notifications, VNPAY payments, flight management, comments, Excel report generation, and secure role-based access control. \\
-    & \textbf{Members:} & 7 members \\
-    & \textbf{My roles:} & Designed the database, set up the backend framework, and implemented core features such as user authentication (login/register/forgot password) using Spring Security and JWT. Developed email notification functionality, Excel export, RBAC, and API documentation with Swagger. \\
-    & \textbf{Technology:} & Spring Boot, MySQL, ReactJS, Ant Design, Docker, Swagger \\
-    & \textbf{GitHub:} & \href{https://github.com/kietsocola/FlightManagementSystem}{\uline{Backend Repository}} \\
-    &  & \href{https://github.com/duylam15/react-flight-management-system}{\uline{Frontend Repository}} \\
-\end{tabularx}
-
-\renewcommand{\arraystretch}{1.2}
-\begin{tabularx}{\linewidth}{@{}p{3cm} p{4.5cm} @{ }X}
-    \textbf{2/2024 - 5/2024} & \textbf{SGU Test} & \\
-    & \textbf{Description} & A comprehensive quiz management platform designed for teachers and students. Teachers can effortlessly create quizzes, monitor student performance, and import/export questions easily. \\
-    & \textbf{Members} & 4 members \\
-    & \textbf{My roles} & Developed a dynamic question creation feature, implemented Excel question importing, handled CRUD operations, designed statistical visualization with Chart.js, and created a landing page with animations. \\
-    & \textbf{Technology} & Servlet, JSP, MySQL, HTML, CSS \\
-    & \textbf{GitHub} & \href{https://github.com/LocNguyenSGU/SGU-Test}{\uline{Github Repository}} \\
-\end{tabularx}
-
+\subsection*{3. Flight Management System \hfill \small (Team Project – 7 members)}
+\begin{itemize}
+    \item \textbf{Timeline:} 10/2024 – 12/2024 
+    \item \textbf{Description:} A web platform for booking, managing, and tracking flights with secure login, online payment, and Excel reports.
+    \item \textbf{Key Responsibilities:}
+    \begin{itemize}
+        \item Designed the database and developed the backend with \textbf{Spring Boot}.
+        \item Implemented core features: login/registration via \textbf{Spring Security + JWT}, role based access control.
+        \item Wrote \textbf{API documentation with Swagger} and deployed with \textbf{Docker}.
+    \end{itemize}
+    \item \textbf{Technologies:} Spring Boot, MySQL, ReactJS, Docker, Swagger.
+    \item \textbf{GitHub:} \href{https://github.com/kietsocola/FlightManagementSystem}{\uline{Backend}} \quad | \quad \href{https://github.com/duylam15/react-flight-management-system}{\uline{Frontend}}
+\end{itemize}
 
 \end{document}
-
