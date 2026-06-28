@@ -1,0 +1,17 @@
+# Fdb version 4
+["pdflatex"] 1768625624.30062 "/Users/nguyenhuuloc/Documents/MyComputer/My_CV/main.tex" "main.pdf" "main" 1768625625.01674 2
+  "/Users/nguyenhuuloc/Documents/MyComputer/My_CV/main.tex" 1768625585.8728 5824 20479df69999690a82c8a36af4746926 ""
+  "/Users/nguyenhuuloc/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1741234274.26514 8799587 3b302ba410b8ef9dbba30436c29c2e74 ""
+  "/Users/nguyenhuuloc/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls" 1741233901.35775 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
+  "/Users/nguyenhuuloc/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo" 1741233901.35127 8448 5cf247d4bd0c7d5d711bbbdf111fae2e ""
+  "/Users/nguyenhuuloc/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fontspec/fontspec.sty" 1741233880.49235 3755 4872b99d810c024f9c09bb1c62ffee3b ""
+  "/Users/nguyenhuuloc/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def" 1741233893.1316 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
+  "/Users/nguyenhuuloc/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3kernel/expl3.sty" 1741233893.63324 6565 f51d809db6193fae7b06c1bc26ca8f75 ""
+  "/Users/nguyenhuuloc/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3packages/xparse/xparse.sty" 1741233894.40415 9783 ab4bee47700c04aadedb8da27591b0ab ""
+  "main.aux" 0 -1 0 "pdflatex"
+  "main.tex" 1768625585.8728 5824 20479df69999690a82c8a36af4746926 ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.pdf"
+  (rewritten before read)

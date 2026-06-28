@@ -35,7 +35,7 @@
 
 \noindent
 \begin{tabular}{m{3cm} l}
-    \includegraphics[width=3cm, height=3.5cm]{anh_CV.jpg} &
+    \includegraphics[width=3cm, height=3.5cm]{image.png} &
     % Chia thành 2 cột với 3 dòng mỗi cột
     \begin{tabular}{@{}l}
         \multicolumn{1}{c}{\textbf{\LARGE Nguyễn Hữu Lộc} \quad \textbf{\large Backend Intern Developer}} \\[10pt]
@@ -47,8 +47,8 @@
         \hspace{20pt} % Tạo khoảng cách giữa 2 bảng (cột)
         \begin{tabular}{@{}ll@{}}
              \faMapMarker & Hoc Mon, TP HCM \\
-            \faGithub & \href{https://github.com/LocNguyenSGU}{\uline{github.com/LocNguyenSGU}} \\
-            \faGlobe & \href{https://locnguyensgu.github.io/nguyenhuuloc2k4/}{\uline{my website}} \\
+            \faGithub & \href{https://github.com/LocNguyenSGU}{\uline{https://github.com/LocNguyenSGU}} \\
+            \faGlobe & \href{https://locnguyensgu.github.io/nguyenhuuloc2k4/}{\uline{https://locnguyensgu.github.io/nguyenhuuloc2k4/}} \\
         \end{tabular} 
     \end{tabular}
 \end{tabular}
@@ -65,15 +65,17 @@ A final-year IT student specializing in backend development, seeking a \textbf{B
 \begin{tabularx}{\linewidth}{l X}
     \textbf{2022 - 02/2026} & \textbf{Sai Gon University} \\ 
     & Bachelor of Information Technology \\ 
-    & GPA: 3.35/4 (8.16/10) \\ 
-    & Scholarship: 4 times (Encouragement Scholarship)
+    & GPA: 3.38/4 (8.26/10) \\ 
+    & Scholarship: 5 times (Encouragement Scholarship)
 \end{tabularx}
 
 \section{Achievements}
 \vspace{-8pt}
 \noindent\rule{\linewidth}{0.5pt}
 \begin{itemize}
-    \item \textbf{Top 2 - Hackathon 2025 (Sai Gon University)}: Developed an AI learning assistant using the \textbf{OpenAI API}. Led the backend development and delivered a working demo in 24 hours.
+    \item \textbf{Top 2 - Hackathon 02/2025 (Sai Gon University)}: Developed an AI learning assistant using the \textbf{OpenAI API}. Led the backend development and delivered a working demo in 24 hours.
+    \item \textbf{Paper}: Adaptive learning optimization for reinforcement learning. Published in \textbf{FJCAI 2026} (Hội nghị quốc tế về trí tuệ nhân tạo).
+    \item \textbf{Khoá luận tốt nghiệp}: Xây dựng hệ thống AI tích hợp moodle đạt điểm 10/10.
 \end{itemize}
 
 \section{Skills}
@@ -81,64 +83,42 @@ A final-year IT student specializing in backend development, seeking a \textbf{B
 \noindent\rule{\linewidth}{0.5pt}
 \renewcommand{\arraystretch}{1.1}
 \begin{tabularx}{\linewidth}{l X}
-    \textbf{Languages:} & Java, PHP \\
-    \textbf{Frameworks:} & Spring Boot, ReactJS \\
-    \textbf{Databases:} & MySQL, Redis, MongoDB \\
-    \textbf{Architecture:} & Microservices, Observer Pattern \\
+    \textbf{Languages:} & Java, Ruby \\
+    \textbf{Frameworks:} & Spring Boot, Ruby on Rails, ReactJS \\
+    \textbf{Databases:} & MySQL, Redis, MongoDB, PostgreSQL \\
+    \textbf{Architecture:} & Microservices, MVC \\
     \textbf{Realtime Communication:} & WebSocket \\
-    \textbf{Tools/DevOps:} & Git/GitHub, Docker, Swagger, AWS-EC2\\
-    \textbf{Security \& Integration:} & Spring Security, JWT, PayPal API
+    \textbf{Tools/DevOps:} & Git/GitHub, Docker, Cloud AWS\\
 \end{tabularx}
 
 \section{Projects}
 \vspace{-10pt}
 \noindent\rule{\linewidth}{0.5pt}
 
-\subsection*{1. SchoolTest – Online Quiz System \hfill \small (Team Project – 4 members)}
+\subsection*{1.Internal System \hfill \small (Team Project – 5 members)}
 \begin{itemize}
-    \item \textbf{Timeline:} 06/2025 – 08/2025
-    \item \textbf{Description:} An online quiz platform for an teacher in \textbf{SGU} that allows them to create and manage quizzes, while students can take tests and receive instant feedback.
+    \item \textbf{Timeline:} 09/2025 – 09/2026
+    \item \textbf{Description:} Hệ thống quẩn lí đơn hàng, nhân viên, khách hàng và sản phẩm cho một công ty thương mại điện tử. Hệ thống được xây dựng với kiến trúc \textbf{MVC} và cơ sở dữ liệu \textbf{PostgreSQL}.
     \item \textbf{Key Responsibilities:}
     \begin{itemize}
-        \item Fixed bugs and developed additional features for the system using \textbf{PHP} with the \textbf{MVC} architecture.
-        \item Deployed and hosted the application using \textbf{VPS} and \textbf{AWS EC2}.
+        \item Developed backend Order system with 5000+ orders perday using 
+        \item Tính năng cào giá sản phẩm từ các trang thương mại với dữ liệu csv lớn 100000+ dòng, xử lý dữ liệu bất đồng bộ với \textbf{Sidekiq} và lưu trữ vào cơ sở dữ liệu \textbf{PostgreSQL}.
+        \item Migrate lại cấu trúc lưu trữ dữ liệu từ 2 cơ sở dữ liệu khác nhau sang 1 cơ sở dữ liệu duy nhất (xử lí cấu trúc dữ liệu phức tạp, dữ liệu lớn 1000000+ dòng)
+        \item Tool trích xuất thông tin từ hoá đơn với cấu trúc phức tạp, độ chính xác 97\% với api từ gemini ai
     \end{itemize}
-    \item \textbf{Technologies:} PHP, MVC, MySQL
-    \item \textbf{Hosting:} \href{https://sgutest.site/QuanLyThiTracNghiem/}{\uline{sgutest.site}}
+    \item \textbf{Technologies:} Ruby, MVC, PostgreSQL, Redis, Docker, AWS EC2, Sidekiq
 \end{itemize}
 
-\subsection*{2. Calligo – Real-time Messaging Platform \hfill \small (Personal Project)}
+\subsection*{2. Tạo nội dung SEO \hfill \small (Team Project – 3 members)}
 \begin{itemize}
     \item \textbf{Timeline:} 12/2024 – 06/2025
     \item \textbf{Description:} Full-stack chat system with a microservices architecture, supporting real-time messaging and scalable system.
     \item \textbf{Key Responsibilities:}
     \begin{itemize}
-        \item Designed and implemented a distributed backend using \textbf{Spring Boot} with \textbf{Microservices}.
-        \item Built a real-time communication layer with \textbf{STOMP over WebSocket}.
-        \item Managed data with \textbf{MongoDB}, \textbf{Redis}, and \textbf{MySQL}.
+        \item Thiết kế kiến trúc, database
+        \item Xây dựng system xử lí hot trend, tạo bài viết tự động với \textbf{OpenAI API} và deepseek, đăng bài viết lên website với \textbf{Shopify GraphQL}.
+        \item Worflow n8n, websocket realtime.
     \end{itemize}
-    \item \textbf{Performance Test:}
-    \begin{itemize}
-        \item Simulated \textbf{1,000 users} sending \textbf{5 messages each}; \textbf{Messages received: 95,436}.
-        \item \textbf{Connection success rate: 98.34\%} \quad (Avg connect time: \textbf{438ms}).
-        \item \textbf{HTTP API:} \textbf{34,705 requests}, \textbf{0 errors}, \textbf{95th percentile: 3.1s}.
-    \end{itemize}
-    \item \textbf{Technologies:} Spring Boot, WebSocket, ReactJS, MongoDB, Redis, MySQL, Kafka
-    \item \textbf{GitHub:} \href{https://github.com/LocNguyenSGU/Calligo}{\uline{Backend}} \quad | \quad \href{https://github.com/LocNguyenSGU/Calligo-FE}{\uline{Frontend}}
-\end{itemize}
-
-\subsection*{3. Flight Management System \hfill \small (Team Project – 7 members)}
-\begin{itemize}
-    \item \textbf{Timeline:} 10/2024 – 12/2024 
-    \item \textbf{Description:} A web platform for booking, managing, and tracking flights with secure login, online payment, and Excel reports.
-    \item \textbf{Key Responsibilities:}
-    \begin{itemize}
-        \item Designed the database and developed the backend with \textbf{Spring Boot}.
-        \item Implemented core features: login/registration via \textbf{Spring Security + JWT}, role based access control.
-        \item Wrote \textbf{API documentation with Swagger} and deployed with \textbf{Docker}.
-    \end{itemize}
-    \item \textbf{Technologies:} Spring Boot, MySQL, ReactJS, Docker, Swagger.
-    \item \textbf{GitHub:} \href{https://github.com/kietsocola/FlightManagementSystem}{\uline{Backend}} \quad | \quad \href{https://github.com/duylam15/react-flight-management-system}{\uline{Frontend}}
-\end{itemize}
+    \item \textbf{Technologies:} Ruby, 
 
 \end{document}
